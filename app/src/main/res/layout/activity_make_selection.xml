@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".MakeSelection">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:tooltipText="Mark Attandance"
+        app:titleTextColor="#fff"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ddffffff"
+        android:orientation="horizontal"
+        >
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/MarkButton"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="@color/bcolor"
+            android:onClick="ShowMarkScreen"
+            android:text="Mark Attendance"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12dp"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/colorPrimary"
+            app:icon="@drawable/ic_baseline_settings_overscan_32"
+            app:iconTint="@color/colorPrimary" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/ShowButton"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="@color/bcolor"
+            android:onClick="ShowAttendanceScreen"
+            android:text="Show Attendance"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12dp"
+            app:cornerRadius="20dp"
+            app:icon="@drawable/ic_outline_pageview_48"
+            app:iconTint="@color/colorPrimary" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ddffffff"
+        android:orientation="vertical"
+        >
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/ShowMonthlyButton"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@color/bcolor"
+            android:onClick="ShowMonthlyAttendanceScreen"
+            android:text="Show Monthly Attendance"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13dp"
+            app:cornerRadius="20dp"
+            app:icon="@drawable/ic_outline_pageview_48"
+            app:iconTint="@color/colorPrimary" />
+
+    </LinearLayout>
+
+</LinearLayout>

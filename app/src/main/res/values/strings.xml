@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">QRAttendanceApp</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="semesterList">
+        <item>Semester 1</item>
+        <item>Semester 2</item>
+        <item>Semester 3</item>
+        <item>Semester 4</item>
+        <item>Semester 5</item>
+        <item>Semester 6</item>
+        <item>Semester 7</item>
+        <item>Semester 8</item>
+    </string-array>
+
+    <string-array name="Semester1">
+        <item>ITC</item>
+        <item>Basic Elect.</item>
+        <item>English - I</item>
+        <item>Islamic Std.</item>
+        <item>ITC Lab</item>
+        <item>Calculus - I</item>
+        <item>Call Lab</item>
+        <item>Professional Ethics</item>
+    </string-array>
+
+    <string-array name="Semester2">
+        <item>Computer Programming</item>
+        <item>Digital Logic Design</item>
+        <item>English Composition</item>
+        <item>Pakistan Std.</item>
+        <item>CP Lab</item>
+        <item>Calculus - II</item>
+        <item>English Lab</item>
+    </string-array>
+
+    <string-array name="Semester3">
+        <item>Data Structures</item>
+        <item>Discrete Structures</item>
+        <item>Data Structures</item>
+        <item>Comp. Organization and Assembly Lang.</item>
+        <item>Marketing Management</item>
+        <item>Fundamentals of Management</item>
+        <item>Linear Algebra</item>
+        <item>Human Ethics and Behavior</item>
+    </string-array>
+
+    <string-array name="Semester4">
+        <item>Database Systems Lab</item>
+        <item>Operating Systems Lab</item>
+        <item>Database Systems</item>
+        <item>Design and Analysis of Algorithms</item>
+        <item>Computer Architecture</item>
+        <item>Fundamentals of Accounting</item>
+        <item>Total Quality Management</item>
+    </string-array>
+
+    <string-array name="Semester5">
+        <item>Computer Networks Lab</item>
+        <item>Object Oriented Analysis and Design Lab</item>
+        <item>Theory of Automata</item>
+        <item>Computer Networks</item>
+        <item>Object Oriented Analysis and Design</item>
+        <item>Information Retrieval</item>
+        <item>Web Programming</item>
+        <item>Data Warehousing</item>
+    </string-array>
+    <string-array name="Semester6">
+        <item>Software Engineering</item>
+        <item>Information Retrieval</item>
+        <item>Artificial Intelligence</item>
+        <item>Compiler Construction</item>
+        <item>Web Programming</item>
+        <item>Network Security</item>
+        <item>Parallel and Distributed Computing</item>
+        <item>Computer Graphics</item>
+    </string-array>
+    <string-array name="Semester7">
+        <item>Machine Learning</item>
+        <item>Semantic Web Technologies</item>
+        <item>Digital Image Processing</item>
+        <item>Finance and Accounting</item>
+        <item>Entrepreneurship</item>
+        <item>Business Economics</item>
+        <item>Technology Management</item>
+        <item>Directed Readings in Economics</item>
+    </string-array>
+    <string-array name="Semester8">
+        <item>Cyber Security</item>
+        <item>User Experience Engineering</item>
+        <item>Multiagent Systems</item>
+        <item>Big Data Analytics</item>
+        <item>Strategic Management</item>
+        <item>International HR Management</item>
+        <item>Entrepreneurship</item>
+        <item>Strategic IT</item>
+    </string-array>
+</resources>
